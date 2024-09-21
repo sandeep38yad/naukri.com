@@ -47,11 +47,14 @@ class jobs:
             time.sleep(2)
             self.driver.find_element(By.XPATH, self.submit_xpath).click()
             time.sleep(2)
-            element_user = WebDriverWait(self.driver, 30).until(
-                EC.presence_of_element_located((By.XPATH, self.freshness_xpath)))
+            new_url = self.driver.current_url + "&jobAge=1"
+            self.driver.get(new_url)
 
-            self.driver.find_element(By.XPATH, self.freshness_dropdown).click()
-            self.driver.find_element(By.XPATH, self.freshness_xpath).click()
+            # element_user = WebDriverWait(self.driver, 30).until(
+            #     EC.presence_of_element_located((By.XPATH, self.freshness_xpath)))
+            #
+            # self.driver.find_element(By.XPATH, self.freshness_dropdown).click()
+            # self.driver.find_element(By.XPATH, self.freshness_xpath).click()
             time.sleep(2)
 
         except Exception as e:
