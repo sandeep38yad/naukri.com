@@ -1,0 +1,98 @@
+1726904483457	geckodriver	INFO	Listening on 127.0.0.1:55912
+1726904486470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sande\\AppData\\Local\\Temp\\rust_mozprofile9Uh2LZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1726904487368	Marionette	INFO	Marionette enabled
+1726904487857	Marionette	INFO	Listening on port 55929
+WebDriver BiDi listening on ws://127.0.0.1:55913
+Read port: 55929
+1726904488004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.naukri.com."
+JavaScript error: https://static.naukimg.com/s/0/0/j/nLoggerJB_v3.0.min.js, line 1: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.naukri.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.naukri.com."
+JavaScript error: https://static.naukimg.com/s/0/0/j/nLoggerJB_v3.2.min.js, line 1: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1726904542997	geckodriver	INFO	Listening on 127.0.0.1:56061
+1726904546026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56062" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sande\\AppData\\Local\\Temp\\rust_mozprofilevzasmb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1726904546829	Marionette	INFO	Marionette enabled
+1726904547327	Marionette	INFO	Listening on port 56075
+Read port: 56075
+WebDriver BiDi listening on ws://127.0.0.1:56062
+1726904547542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.naukimg.com/s/0/0/j/nLoggerJB_v3.0.min.js, line 1: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.naukri.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.naukri.com."
+JavaScript error: https://static.naukimg.com/s/0/0/j/nLoggerJB_v3.2.min.js, line 1: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rl8ncuLcNQlAFHRjg_Uq3imktrLJw03zTUXQCd-uB1w.js line 2 > eval line 5062 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://boldbusiness.applytojob.com/apply/2SSQON7pTP/BPO-Quality-Assurance-Agent, line 24: Script terminated by timeout at:
+buffer@https://boldbusiness.applytojob.com/apply/2SSQON7pTP/BPO-Quality-Assurance-Agent:24:9673
+i@https://boldbusiness.applytojob.com/apply/2SSQON7pTP/BPO-Quality-Assurance-Agent:24:10518
+_/<@https://boldbusiness.applytojob.com/apply/2SSQON7pTP/BPO-Quality-Assurance-Agent:24:34835
+
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://community.workday.com/maintenance-page?d=1&s=1&e=1&o=&p=1" ({})
+JavaScript error: https://careers.brandix.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
+JavaScript error: https://careers.brandix.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 50: TypeError: firstFocusableElementInUnifyApplyNowButtonListDropDownSlideNav is undefined
+JavaScript error: https://www.peninsularresearchops.com/js/contact-us-validation.js, line 138: TypeError: submitButton is null
+JavaScript error: https://www.gstatic.com/recaptcha/releases/EGbODne6buzpTnWrrBprcfAY/recaptcha__en.js, line 220: Error: reCAPTCHA placeholder element must be an element or id
+console.error: ({})
+1726905129190	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.peninsularresearchops.com/careers/test-automation-developer" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/requisitions/preview/202405558/apply/email?mode=location" ({})
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-RX0YRZQKS2&l=dataLayer&cx=c, line 553: Script terminated by timeout at:
+aa.oh@https://www.googletagmanager.com/gtag/js?id=G-RX0YRZQKS2&l=dataLayer&cx=c:553:491
+get@https://www.googletagmanager.com/gtag/js?id=G-RX0YRZQKS2&l=dataLayer&cx=c:552:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-RX0YRZQKS2&l=dataLayer&cx=c:552:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-RX0YRZQKS2&l=dataLayer&cx=c:552:412
+
+JavaScript error: https://careers.sunpharma.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
+JavaScript error: https://careers.sunpharma.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 50: TypeError: firstFocusableElementInUnifyApplyNowButtonListDropDownSlideNav is undefined
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+u@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:9957
+s@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:10037
+104/e.onLCP/</<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:19072
+104/e.onLCP/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:19376
+104/g/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11302
+104/e.onLCP/</c<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18438
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11636
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/90xf0bdvxremvqkfop8ldws50, line 1: Script terminated by timeout at:
+si/<@https://static.licdn.com/aero-v1/sc/h/90xf0bdvxremvqkfop8ldws50:1:126129
+n@https://static.licdn.com/aero-v1/sc/h/90xf0bdvxremvqkfop8ldws50:1:125625
+
+JavaScript warning: https://static.parastorage.com/services/wix-thunderbolt/dist/passwordProtectedPage.1d2bf9a9.chunk.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://static.parastorage.com/services/wix-thunderbolt/dist/main.9a8f299d.bundle.min.js, line 6: Script terminated by timeout at:
+t@https://static.parastorage.com/services/wix-thunderbolt/dist/main.9a8f299d.bundle.min.js:6:161640
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-KTL3MXEZVP&l=dataLayer&cx=c, line 162: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-KTL3MXEZVP&l=dataLayer&cx=c:162:158
+Wz@https://www.googletagmanager.com/gtag/js?id=G-KTL3MXEZVP&l=dataLayer&cx=c:542:134
+Xz/<@https://www.googletagmanager.com/gtag/js?id=G-KTL3MXEZVP&l=dataLayer&cx=c:542:111
+
+JavaScript warning: https://dev.visualwebsiteoptimizer.com/lib/381675.js, line 47: Script terminated by timeout at:
+t@https://dev.visualwebsiteoptimizer.com/lib/381675.js:47:252127
+bl/<@https://dev.visualwebsiteoptimizer.com/lib/381675.js:47:252237
+
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.fivetran.com/careers/job?gh_jid=6199907003" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://riskinsightconsulting.co.in/careers/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://careers.massmutualindia.com/job/hyderabad/senior-associate-sdet/724/68726680640" ({})
+JavaScript error: https://www.veefin.com/assets/js/hscroll.js, line 19: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c, line 200: Script terminated by timeout at:
+Kc@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:200:321
+WF@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:640:262
+YF.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:644:293
+aa.flush@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:661:105
+mH/<@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:672:210
+aa.Jk/<@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:615:126
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLayer&cx=c:614:420
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1726908592911	Marionette	INFO	Stopped listening on port 56075
+Dynamically enable window occlusion 1
