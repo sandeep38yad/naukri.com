@@ -55,6 +55,11 @@ class ReadConfig:
         return name
 
     @staticmethod
+    def get_chatbot_cancel_xpath():
+        chatbot = config.get('profile section', 'chatbot_cancel_xpath')
+        return chatbot
+
+    @staticmethod
     def getedit_xpath():
         edit = config.get('profile section', 'edit_xpath')
         return edit
@@ -84,9 +89,19 @@ class ReadConfig:
         keywordxpath = config.get('jobsearch section', 'keyword_xpath')
         return keywordxpath
     @staticmethod
-    def getkeyword():
-        keyword = config.get('jobsearch section', 'keyword')
-        return keyword
+    def getkeyword(category):
+        if category == 'qa':
+            keyword = config.get('jobsearch section', 'keyword')
+            return keyword
+        elif category == 'developer':
+            dev_keyword = config.get('jobsearch section', 'dev_keyword')
+            return dev_keyword
+        elif category == 'devops':
+            ops_keyword = config.get('jobsearch section', 'ops_keyword')
+            return ops_keyword
+        elif category == 'intern':
+            intern_keyword = config.get('jobsearch section', 'intern_keyword')
+            return intern_keyword
 
     @staticmethod
     def getyoexpath():

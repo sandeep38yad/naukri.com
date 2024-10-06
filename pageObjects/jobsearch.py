@@ -4,11 +4,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.alert import Alert
 from utilities.readProperties import ReadConfig
+from utilities.db_insert import insertDB
 from utilities.customLogger import LogGen
 from testCases.conftest import ignore_company_list
 import time
 from datetime import datetime
 import re
+import gzip
+from bson import Binary
 
 logger = LogGen.loggen('naukri_automation')
 
@@ -122,6 +125,7 @@ class jobs:
                 self.driver.find_element(By.XPATH, self.chatbot_close_xpath).click()
         except Exception as e:
             pass
+
     def get_apply_link(self, title):
         try:
             self.driver.find_element(By.XPATH, self.apply_xpath).click()
@@ -145,44 +149,110 @@ class jobs:
             #print(f'Error in  getting full jd:{str(e)}')
             return "Not Available"
 
+    def check_category(self, title):
+        try:
+            qa_titles = ReadConfig.get_title_keywords('qa').split(",")
+            qa_pattern = '|'.join(qa_titles)
+            dev_title = ReadConfig.get_title_keywords('developer').split(",")
+            dev_pattern = '|'.join(dev_title)
+            ops_title = ReadConfig.get_title_keywords('devops').split(",")
+            ops_pattern = '|'.join(ops_title)
+            intern_title = ReadConfig.get_title_keywords('intern').split(",")
+            intern_pattern = '|'.join(intern_title)
+
+            if re.search(intern_pattern, title, re.IGNORECASE):
+                print("Intern job")
+                return "intern"
+
+            elif re.search(qa_pattern, title, re.IGNORECASE):
+                print("QA job")
+                return "qa"
+
+            elif re.search(ops_pattern, title, re.IGNORECASE):
+                print("Ops job")
+                return "devops"
+
+            elif re.search(dev_pattern, title, re.IGNORECASE):
+                print("Dev job")
+                return "developer"
+
+            return False
+
+        except Exception as e:
+            print(f'Error in check_category: {str(e)}')
+            return False
+
     def traversed(self, job, jobno):
         try:
-            joblink = job.find_elements(By.XPATH, '//a[@class="title "]' ) #self.job_link_xpath)
+            joblink = job.find_elements(By.XPATH, '//a[@class="title "]') #self.job_link_xpath)
             line = joblink[jobno].get_attribute('href')
             title = joblink[jobno].get_attribute('title')
-            with open('./testCases/traversed.txt', 'r', encoding='utf-8') as f1:
-                lines = f1.readlines()
-            lines = {url.split()[2] for url in lines}
-            if line in lines:
-                print(f'Already traversed: {line}')
-                return True
-            if line not in lines:
-                companies = ignore_company_list()
-                pattern = '|'.join(companies)
-                if re.search(pattern, line, re.IGNORECASE):
-                    print(f'Mass recruiter so ignoring.....')
-                    return True
-
-            qa_titles = ReadConfig.get_title_keywords('qa').split(",")
-            pattern = '|'.join(qa_titles)
-            if re.search(pattern, title, re.IGNORECASE):
-                current_time = datetime.now()
-                with open('./testCases/traversed.txt', 'a+', encoding='utf-8') as f1:
-                    print(str(current_time) + "  " + line, file=f1)
+            print(line)
+            # return line
+            query = {'url': line}
+            if insertDB.check_availibility("main", query):
                 return False
-            else:
-                print("Other department job so skipping......")
-                return True
+            
+            # with open('./testCases/traversed.txt', 'r', encoding='utf-8') as f1:
+            #     lines = f1.readlines()
+            # lines = {url.split()[2] for url in lines}
+            # if line in lines:
+            #     print(f'Already traversed: {line}')
+            #     return True
+            # if line not in lines:
+
+            companies = ignore_company_list()
+            pattern = '|'.join(companies)
+            if re.search(pattern, line, re.IGNORECASE):
+                print(f'Mass recruiter so ignoring.....')
+                return False
+
+            if not self.check_category(title):
+                print("No matched category")
+                return False
+            # qa_titles = ReadConfig.get_title_keywords('qa').split(",")
+            # pattern = '|'.join(qa_titles)
+            # if not re.search(pattern, title, re.IGNORECASE):
+            #     print("Other department job so skipping......")
+            #     return False
+
+            # if self.check_category(title) != category:
+            #     print("Other department job so skipping......")
+            #     return False
+            #
+            # if re.search(pattern, title, re.IGNORECASE):
+            #     current_time = datetime.now()
+            #     with open('./testCases/traversed.txt', 'a+', encoding='utf-8') as f1:
+            #         print(str(current_time) + "  " + line, file=f1)
+            #     return False
+            # else:
+            #     print("Other department job so skipping......")
+            #     return True
+            
+            return line
 
         except Exception as e:
             print(f'Error in traversed:{str(e)}')
             return False
+        
+    def insert_in_db(self, document_dict):
+        try:
+            insertDB.insert_company(document_dict['company'])
+            if not insertDB.check_availibility("main", document_dict['apply_link']):
+                document_dict['time'] = datetime.now()
+                document_dict['portal'] = 'naukri'
+                document_dict['category'] = self.check_category(document_dict['title'])
+                insertDB.insert_document("main", document_dict)
+        except Exception as e:
+            print(f'Error in insert_in_db: {str(e)}')
 
     def collect_details(self, available_jobs):
         jobno = 0
         for job in available_jobs:
             try:
-                if self.traversed(job, jobno):
+                result = self.traversed(job, jobno)
+                if not result:
+                    jobno += 1
                     continue
                 jobno += 1
                 job.click()
@@ -191,30 +261,34 @@ class jobs:
                 #WebDriverWait(self.driver, 15).until(EC.new_window_is_opened(all_windows))
                 self.driver.switch_to.window(all_windows[-1])
 
-                documents_dict = {}
+                document_dict = {}
                 title = self.getTitle()
                 min_exp, max_exp = self.req_exp()
                 print(f'Title: {title}')
-                documents_dict['title'] = title
+                document_dict['title'] = title
                 print(f'Exp: {min_exp}-{max_exp} years')
-                documents_dict['min_exp'] = min_exp
-                documents_dict['max_exp'] = max_exp
+                document_dict['min_exp'] = min_exp
+                document_dict['max_exp'] = max_exp
                 company = self.get_company_name()
                 print(f'Company: {company}')
-                documents_dict['company'] = company
+                document_dict['company'] = company
                 location = self.getLocation()
                 print(f'Location: {location}')
-                documents_dict['location'] = location
+                document_dict['location'] = location
                 apply_link = self.get_apply_link(title)
                 print(f'Apply: {apply_link}')
-                documents_dict['apply_link'] = apply_link
+                document_dict['apply_link'] = apply_link
                 full_jd = self.get_full_jd()
                 # print(f'FULL_JD: {full_jd}')
-                documents_dict['full_jd'] = full_jd
+                compressed_jd = gzip.compress(full_jd.encode('utf-8'))
+                document_dict['full_jd'] = Binary(compressed_jd)
+                document_dict['url'] = result
+                self.insert_in_db(document_dict)
                 if self.driver.window_handles[0] != self.driver.window_handles[-1]:
                     self.driver.close()
                     self.driver.switch_to.window(self.driver.window_handles[0])
-                    self.complete_job_details.append(documents_dict)
+                    # self.complete_job_details.append(document_dict)
+                    
 
             except Exception as e:
                 print(f'Error in collect_details: {str(e)}')

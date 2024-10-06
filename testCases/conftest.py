@@ -18,7 +18,7 @@ def browser_setup(request, browser='firefox'):
         print("Launching Internet Explorer")
     #request.cls.driver = driver
     yield driver
-    driver.quit()
+    # driver.quit()
 
 def ignore_company_list():
     result = []

@@ -13,6 +13,28 @@ class insertDB:
     def insert_company(company):
         if not company_collection.find_one({'company': company}):
             company_collection.insert_one({'company': company})
+
+    def check_availibility(c, query):
+        try:
+            if c == "main":
+                if collection.find_one(query):
+                    return True
+            elif c == "company":
+                if company_collection.find_one(query):
+                    return True
+            return False
+        except Exception as e:
+            print(f'Error in check_availibility: {str(e)}')
+
+    def insert_document(c, doc):
+        try:
+            if c == "main":
+                collection.insert_one(doc)
+            elif c == "company":
+                company_collection.insert_one(doc)
+        except Exception as e:
+            print(f'Error in insert_document : {str(e)}')
+
     @staticmethod
     def start_insert(doclist):
         try:

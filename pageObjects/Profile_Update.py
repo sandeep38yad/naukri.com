@@ -7,6 +7,10 @@ class Profile_update:
         self.driver = driver
 
     def clickEditButton(self,edit_path):
+        try:
+            self.driver.find_element(By.XPATH, ReadConfig.get_chatbot_cancel_xpath()).click()
+        except:
+            pass
         self.driver.find_element(By.XPATH, edit_path).click()
         time.sleep(5)
 

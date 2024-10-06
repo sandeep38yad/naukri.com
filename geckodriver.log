@@ -96,3 +96,33 @@ aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-NSWN1SWV5M&l=gtmDataLaye
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1726908592911	Marionette	INFO	Stopped listening on port 56075
 Dynamically enable window occlusion 1
+1726913334506	geckodriver	INFO	Listening on 127.0.0.1:64375
+1726913337568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64376" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sande\\AppData\\Local\\Temp\\rust_mozprofilettFsIe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1726913338209	Marionette	INFO	Marionette enabled
+1726913338428	Marionette	INFO	Listening on port 64395
+WebDriver BiDi listening on ws://127.0.0.1:64376
+Read port: 64395
+1726913338637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js, line 33: Script terminated by timeout at:
+cl@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:78557
+Tu@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:98895
+Au@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:98778
+ju@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:98647
+Pu@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:98508
+_u@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:95498
+Xo/<@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:45267
+t.unstable_runWithPriority@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:41:4043
+qo@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:45044
+Xo@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:45214
+Jo@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:45147
+gu@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:92883
+Ai@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:33:64622
+k/O</<@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:6:6658
+k/O<@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:6:6629
+Pe/<@https://static.naukimg.com/s/5/105/j/ni-gnb/gnb_v22-r.min.js:41:22880
+
+1726913343990	Marionette	INFO	Stopped listening on port 64395
+Dynamically enable window occlusion 1
