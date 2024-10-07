@@ -138,7 +138,7 @@ class jobs:
 
         except Exception as e:
             #print(f'Error in get_apply_link: {str(e)}')
-            # self.check_direct_apply(title)
+            self.check_direct_apply(title)
             return "Not Found"
 
     def get_full_jd(self):

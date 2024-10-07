@@ -19219,3 +19219,213 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2024-10-05 18:44:12 - naukri_automation - INFO - Searching available jobs 
 2024-10-05 18:44:12 - naukri_automation - INFO - Searching available jobs 
 2024-10-05 18:44:12 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:02:38 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:38 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:38 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:38 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:38 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:38 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-07 01:02:38 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-07 01:02:38 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-07 01:02:38 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-07 01:02:38 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-07 01:02:41 - naukri_automation - INFO - login page web elements PASSED
+2024-10-07 01:02:41 - naukri_automation - INFO - login page web elements PASSED
+2024-10-07 01:02:41 - naukri_automation - INFO - login page web elements PASSED
+2024-10-07 01:02:41 - naukri_automation - INFO - login page web elements PASSED
+2024-10-07 01:02:41 - naukri_automation - INFO - login page web elements PASSED
+2024-10-07 01:02:41 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:41 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:41 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:41 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:41 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-07 01:02:41 - naukri_automation - INFO - Verifying Login 
+2024-10-07 01:02:41 - naukri_automation - INFO - Verifying Login 
+2024-10-07 01:02:41 - naukri_automation - INFO - Verifying Login 
+2024-10-07 01:02:41 - naukri_automation - INFO - Verifying Login 
+2024-10-07 01:02:41 - naukri_automation - INFO - Verifying Login 
+2024-10-07 01:02:48 - naukri_automation - INFO - Login test PASSED
+2024-10-07 01:02:48 - naukri_automation - INFO - Login test PASSED
+2024-10-07 01:02:48 - naukri_automation - INFO - Login test PASSED
+2024-10-07 01:02:48 - naukri_automation - INFO - Login test PASSED
+2024-10-07 01:02:48 - naukri_automation - INFO - Login test PASSED
+2024-10-07 01:02:48 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:48 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:48 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:48 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:48 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:48 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-07 01:02:48 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-07 01:02:48 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-07 01:02:48 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-07 01:02:48 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-07 01:02:50 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-07 01:02:50 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-07 01:02:50 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-07 01:02:50 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-07 01:02:50 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-07 01:02:50 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:50 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:50 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:50 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:50 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-07 01:02:50 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-07 01:02:50 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-07 01:02:50 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-07 01:02:50 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-07 01:02:50 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-07 01:03:02 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-07 01:03:02 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-07 01:03:02 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-07 01:03:02 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-07 01:03:02 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-07 01:03:02 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-07 01:03:02 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-07 01:03:02 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-07 01:03:02 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-07 01:03:02 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-07 01:03:02 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:03:02 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:03:02 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:03:02 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:03:02 - naukri_automation - INFO - Searching available jobs 
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1539:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1539:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1539:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1539:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1539:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:01 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
+2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
+
