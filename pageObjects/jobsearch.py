@@ -36,7 +36,7 @@ class jobs:
         self.driver = driver
         self.complete_job_details = []
 
-    def send_keywords_in_searchbar(self,keyword,yoe):
+    def send_keywords_in_searchbar(self, keyword, yoe):
         try:
             self.driver.find_element(By.XPATH, self.searchbar_xpath).click()
             time.sleep(2)
@@ -202,7 +202,8 @@ class jobs:
             # if line not in lines:
 
             companies = ignore_company_list()
-            pattern = '|'.join(companies)
+            pattern = '|'.join(re.escape(c) for c in companies)
+            # pattern = '|'.join(companies)
             if re.search(pattern, line, re.IGNORECASE):
                 print(f'Mass recruiter so ignoring.....')
                 return False

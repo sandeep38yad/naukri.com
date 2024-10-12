@@ -11,8 +11,8 @@ logger = LogGen.loggen('naukri_automation')
 class insertDB:
     success = 0
     def insert_company(company):
-        if not company_collection.find_one({'company': company}):
-            company_collection.insert_one({'company': company})
+        if not company_collection.find_one({'company': company.lower()}):
+            company_collection.insert_one({'company': company.lower()})
 
     def check_availibility(c, query):
         try:

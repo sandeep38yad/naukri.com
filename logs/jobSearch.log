@@ -19429,3 +19429,73 @@ _onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
 
 2024-10-07 01:04:02 - naukri_automation - ERROR - Error in send_keywords_in_searchbar: Message: Tried to run command without establishing a connection
 
+2024-10-10 22:30:09 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:09 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:09 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:09 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:09 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:09 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-10 22:30:09 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-10 22:30:09 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-10 22:30:09 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-10 22:30:09 - naukri_automation - INFO - Verifying login page web elements 
+2024-10-10 22:30:14 - naukri_automation - INFO - login page web elements PASSED
+2024-10-10 22:30:14 - naukri_automation - INFO - login page web elements PASSED
+2024-10-10 22:30:14 - naukri_automation - INFO - login page web elements PASSED
+2024-10-10 22:30:14 - naukri_automation - INFO - login page web elements PASSED
+2024-10-10 22:30:14 - naukri_automation - INFO - login page web elements PASSED
+2024-10-10 22:30:14 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:14 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:14 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:14 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:14 - naukri_automation - INFO - *********************Test_001_Login**************************************
+2024-10-10 22:30:14 - naukri_automation - INFO - Verifying Login 
+2024-10-10 22:30:14 - naukri_automation - INFO - Verifying Login 
+2024-10-10 22:30:14 - naukri_automation - INFO - Verifying Login 
+2024-10-10 22:30:14 - naukri_automation - INFO - Verifying Login 
+2024-10-10 22:30:14 - naukri_automation - INFO - Verifying Login 
+2024-10-10 22:30:20 - naukri_automation - INFO - Login test PASSED
+2024-10-10 22:30:20 - naukri_automation - INFO - Login test PASSED
+2024-10-10 22:30:20 - naukri_automation - INFO - Login test PASSED
+2024-10-10 22:30:20 - naukri_automation - INFO - Login test PASSED
+2024-10-10 22:30:20 - naukri_automation - INFO - Login test PASSED
+2024-10-10 22:30:20 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:20 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:20 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:20 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:20 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:20 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-10 22:30:20 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-10 22:30:20 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-10 22:30:20 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-10 22:30:20 - naukri_automation - INFO - Verifying Profile page web elements 
+2024-10-10 22:30:23 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-10 22:30:23 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-10 22:30:23 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-10 22:30:23 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-10 22:30:23 - naukri_automation - INFO - Profile page web elements PASSED
+2024-10-10 22:30:23 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:23 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:23 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:23 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:23 - naukri_automation - INFO - *********************Test_002_Profile**************************************
+2024-10-10 22:30:23 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-10 22:30:23 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-10 22:30:23 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-10 22:30:23 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-10 22:30:23 - naukri_automation - INFO - Verifying Profile Update 
+2024-10-10 22:30:35 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-10 22:30:35 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-10 22:30:35 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-10 22:30:35 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-10 22:30:35 - naukri_automation - INFO - Profile Update test PASSED
+2024-10-10 22:30:35 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-10 22:30:35 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-10 22:30:35 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-10 22:30:35 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-10 22:30:35 - naukri_automation - INFO - *********************Test_003_avaialable_jobs**************************************
+2024-10-10 22:30:35 - naukri_automation - INFO - Searching available jobs 
+2024-10-10 22:30:35 - naukri_automation - INFO - Searching available jobs 
+2024-10-10 22:30:35 - naukri_automation - INFO - Searching available jobs 
+2024-10-10 22:30:35 - naukri_automation - INFO - Searching available jobs 
+2024-10-10 22:30:35 - naukri_automation - INFO - Searching available jobs 
