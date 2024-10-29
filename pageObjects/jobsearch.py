@@ -12,6 +12,7 @@ from datetime import datetime
 import re
 import gzip
 from bson import Binary
+import google.generativeai as genai
 
 logger = LogGen.loggen('naukri_automation')
 
@@ -143,10 +144,27 @@ class jobs:
 
     def get_full_jd(self):
         try:
-            jd = self.driver.find_element(By.XPATH, self.jd_xpath).text
-            return jd
+            result = "**Key Skills**\n\n"
+            # jd = self.driver.find_element(By.XPATH, self.jd_xpath).text
+            skills_section = self.driver.find_elements(By.XPATH, '//div[@class="styles_key-skill__GIPn_"]/div/a')
+            # skills_elements = skills_section.find_elements(By.XPATH, '//a[@target="_blank"]')
+            for skills in skills_section:
+                result += f"{skills.text}\n"
+            print("JD: ", result)
+            # genai.configure(api_key=ReadConfig.get_api_key())
+            # model = genai.GenerativeModel('gemini-pro')
+            # response = model.generate_content(
+            #     f"Summarize the given job description in very short only with key skills "
+            #     f"required for this job. I want the response in this format: Key Skills:...."
+            #     f" Job Description:{jd}")
+            #
+            # result = response.text
+            # print("AI Response: ", result)
+            # return result
+            return result
+
         except Exception as e:
-            #print(f'Error in  getting full jd:{str(e)}')
+            print(f'Error in  getting full jd:{str(e)}')
             return "Not Available"
 
     def check_category(self, title):
@@ -276,13 +294,14 @@ class jobs:
                 location = self.getLocation()
                 print(f'Location: {location}')
                 document_dict['location'] = location
+                full_jd = self.get_full_jd()
+                # print(f'FULL_JD: {full_jd}')
+                # compressed_jd = gzip.compress(full_jd.encode('utf-8'))
+                # document_dict['full_jd'] = Binary(compressed_jd)
+                document_dict['full_jd'] = full_jd
                 apply_link = self.get_apply_link(title)
                 print(f'Apply: {apply_link}')
                 document_dict['apply_link'] = apply_link
-                full_jd = self.get_full_jd()
-                # print(f'FULL_JD: {full_jd}')
-                compressed_jd = gzip.compress(full_jd.encode('utf-8'))
-                document_dict['full_jd'] = Binary(compressed_jd)
                 document_dict['url'] = result
                 self.insert_in_db(document_dict)
                 if self.driver.window_handles[0] != self.driver.window_handles[-1]:

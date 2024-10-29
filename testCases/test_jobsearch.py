@@ -85,18 +85,3 @@ class Test_003_Jobsearch:
             print(f'Error in test_avaialable_jobs:{str(e)}')
             logger.error(f'Error in test_avaialable_jobs:{str(e)}')
 
-    # def test_db_insert(self):
-    #     try:
-    #         logger.info("*********************Test_003_db_insert**************************************")
-    #         logger.info("Inserting in DB")
-    #         with open(r'./testCases/jobdetails.json', 'r', encoding='utf-8') as file:
-    #             details = json.load(file)
-    #
-    #         if insertDB.start_insert(details):
-    #             assert True
-    #         else:
-    #             assert False
-    #
-    #     except Exception as e:
-    #         print(f'Error in test_db_insert {str(e)}')
-

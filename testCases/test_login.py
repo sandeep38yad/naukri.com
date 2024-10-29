@@ -11,13 +11,12 @@ import time
 logger = LogGen.loggen('naukri_automation')
 
 #@pytest.mark.usefixtures("browser_setup")
-class Test_001_Login:
+class Test_001_Login():
     base_url = ReadConfig.getbase_url()
     username = ReadConfig.getusername()
     password = ReadConfig.getpassword()
     username_xpath = ReadConfig.getuserxpath()
     pass_xpath = ReadConfig.getpassxpath()
-
 
     def test_login_page_webelements(self,browser_setup):
         try:
@@ -40,8 +39,7 @@ class Test_001_Login:
         except Exception as e:
             logger.error("{str(e)}")
 
-
-    def test_login(self,browser_setup):
+    def test_login(self, browser_setup):
         try:
             logger.info("*********************Test_001_Login**************************************")
             logger.info("Verifying Login ")

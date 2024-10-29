@@ -10,6 +10,11 @@ class ReadConfig:
         return url
 
     @staticmethod
+    def get_api_key():
+        api = config.get('common info', 'api_key')
+        return api
+
+    @staticmethod
     def getusername():
         user = config.get('common info', 'username')
         return user

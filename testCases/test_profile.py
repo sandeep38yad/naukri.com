@@ -39,7 +39,7 @@ class Test_002_Profile:
             logger.error(f"{str(e)}")
 
 
-    def test_profile(self,browser_setup):
+    def test_profile(self, browser_setup):
         try:
             logger.info("*********************Test_002_Profile**************************************")
             logger.info("Verifying Profile Update ")
